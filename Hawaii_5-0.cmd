@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mod con: lines=6 cols=30
+mode con: lines=6 cols=30
 title "Hawaii_5-0"
 @cecho off
 @set "apk=192681346781"
