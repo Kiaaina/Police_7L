@@ -10,9 +10,9 @@ title "Hawaii_5-0"
 cecho {09}1=apk{\n}2=app{\n}3=iso{04}
 
 set /a m=Choose;
-if (%m%=1) & goto one
-if (%m%=2) & goto two
-if (%m%=3) & goto three
+if %m%==1 & goto one
+if %m%==2 & goto two
+if %m%==3 & goto three
 goto top
 
 :one
